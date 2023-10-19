@@ -1,0 +1,17 @@
+﻿<Window x:Class="QuadraticEquationSolver.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Deltolator" Height="500" Width="750" Icon="Logo.png">
+    <Grid>
+        <StackPanel Margin="20">
+            <Label Content="Podaj pierwszą liczbę (a):"/>
+            <TextBox Name="LabelA" Width="200"/>
+            <Label Content="Podaj pierwszą liczbę (b):"/>
+            <TextBox Name="LabelB" Width="200"/>
+            <Label Content="Podaj pierwszą liczbę (c):"/>
+            <TextBox Name="LabelC" Width="200"/>
+            <Button Content="Oblicz" Click="CalculateButton_Click" Width="100" Margin="0 20 0 0"/>
+            <TextBlock Name="ResultText" Text="" FontSize="16" FontWeight="Bold"/>
+        </StackPanel>
+    </Grid>
+</Window>

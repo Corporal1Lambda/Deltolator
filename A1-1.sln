@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34114.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A1-1", "A1-1\A1-1.csproj", "{B4EBACA4-6619-419E-9463-B32BE491A152}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DeltolatorSetup", "DeltolatorSetup\DeltolatorSetup.vdproj", "{59C5CFD2-DC82-47ED-B318-1050112A1D14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4EBACA4-6619-419E-9463-B32BE491A152}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4EBACA4-6619-419E-9463-B32BE491A152}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4EBACA4-6619-419E-9463-B32BE491A152}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4EBACA4-6619-419E-9463-B32BE491A152}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59C5CFD2-DC82-47ED-B318-1050112A1D14}.Debug|Any CPU.ActiveCfg = Debug
+		{59C5CFD2-DC82-47ED-B318-1050112A1D14}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6404C646-5A9C-4E2E-9D84-AA0709D735C7}
+	EndGlobalSection
+EndGlobal
