@@ -1,17 +1,19 @@
 ﻿<Window x:Class="QuadraticEquationSolver.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Deltolator" Height="500" Width="750" Icon="Logo.png">
-    <Grid>
-        <StackPanel Margin="20">
-            <Label Content="Podaj pierwszą liczbę (a):"/>
+        Title="Deltolator" Height="750" Width="1250" Icon="Logo.png">
+    <Grid Margin="0,6,0,0">
+        <StackPanel Margin="22,273,18,-218">
+            <Label Content="Podaj liczbę (a):"/>
             <TextBox Name="LabelA" Width="200"/>
-            <Label Content="Podaj pierwszą liczbę (b):"/>
+            <Label Content="Podaj liczbę (b):"/>
             <TextBox Name="LabelB" Width="200"/>
-            <Label Content="Podaj pierwszą liczbę (c):"/>
+            <Label Content="Podaj liczbę (c):"/>
             <TextBox Name="LabelC" Width="200"/>
-            <Button Content="Oblicz" Click="CalculateButton_Click" Width="100" Margin="0 20 0 0"/>
+            <Button Content="Oblicz" Click="CalculateButton_Click" Width="100" Margin="301,20,301,0" Height="22"/>
             <TextBlock Name="ResultText" Text="" FontSize="16" FontWeight="Bold"/>
         </StackPanel>
+        <TextBlock HorizontalAlignment="Left" Margin="5,247,0,0" TextWrapping="Wrap" Text="Oblicz swoją Deltę:" FontWeight="Bold" VerticalAlignment="Top" Height="24" Width="201" FontSize="15"/>
+        <TextBlock HorizontalAlignment="Left" Margin="9,5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="248" Width="717"><Run FontWeight="Bold" Text="Deltolator to narzędzie służące do wyliczania:"/><Run FontWeight="Bold" Text="&#x9;&#x9;&#x9;&#x9;&#x9;Wzór na Deltę:"/><LineBreak/><Run Text="- Delty,"/><Run Text="&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;"/><LineBreak/><Run Text="- Pierwiastka z Delty"/><Run Text="&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;🛆 = b² - 4 ꞏ a ꞏ c"/><LineBreak/><Run Text="- x1, x2"/><LineBreak/><Run Text="- x0"/><LineBreak/><Run/><LineBreak/><Run/><LineBreak/><Run/></TextBlock>
     </Grid>
 </Window>

@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.34114.132
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A1-1", "A1-1\A1-1.csproj", "{B4EBACA4-6619-419E-9463-B32BE491A152}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DeltolatorSetup", "DeltolatorSetup\DeltolatorSetup.vdproj", "{59C5CFD2-DC82-47ED-B318-1050112A1D14}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DeltolatorSetup", "DeltolatorSetup\DeltolatorSetup.vdproj", "{FD3FCA72-CE93-43CB-A2FA-73FD7FAC1515}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,8 +17,8 @@ Global
 		{B4EBACA4-6619-419E-9463-B32BE491A152}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4EBACA4-6619-419E-9463-B32BE491A152}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4EBACA4-6619-419E-9463-B32BE491A152}.Release|Any CPU.Build.0 = Release|Any CPU
-		{59C5CFD2-DC82-47ED-B318-1050112A1D14}.Debug|Any CPU.ActiveCfg = Debug
-		{59C5CFD2-DC82-47ED-B318-1050112A1D14}.Release|Any CPU.ActiveCfg = Release
+		{FD3FCA72-CE93-43CB-A2FA-73FD7FAC1515}.Debug|Any CPU.ActiveCfg = Debug
+		{FD3FCA72-CE93-43CB-A2FA-73FD7FAC1515}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
